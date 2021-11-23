@@ -1,6 +1,6 @@
 # ApiRest. Metodologias del tipo CRUD + Login + Encriptado de password + Token
 En esta oportunidad aborde la creación de una Api Rest usando un stack de herramientas como NodeJS para poder manejar mi servidor. ExpressJS para desarrollar toda la lógica del lado del servidor. MySQL 
-para la creacion de mi base de datos. El uso de Sequelize como ORM para poder generar las tablas y la interacción con las mismas dentro de la base de datos y un stack de librerías para la creacion, verificación y autenticación del login de mis usuarios y por ultimo la creación de un TOKEN de seguridad para controlar y determinar el contenido al que puede acceder cada usuario. 
+para la creacion de mi base de datos. El uso de Sequelize como ORM para poder generar las tablas y la interacción con las mismas dentro de la base de datos y un stack de librerías para la creacion, verificación y autenticación del login de mis usuarios, lograr encriptarlos y enviarlos a la db y por ultimo la creación de un TOKEN de seguridad para controlar y determinar el contenido al que puede acceder cada usuario. 
 
 ## Acompañame y veamos como abordar este nuevo desafio :muscle:
  
