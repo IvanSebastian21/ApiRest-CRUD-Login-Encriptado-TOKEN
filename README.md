@@ -5,6 +5,8 @@ para la creacion de mi base de datos. El uso de Sequelize como ORM para poder ge
 ## Acompañame y veamos como abordar este nuevo desafio :muscle:
  
 Primero y principal. Definimos las rutas.
+
+>Dependiendo de las petisiones de nuestro front podemos pensar lo siguiente:  
 >GET /api/films - recupera todas las peliculas  
 POST /api/films - crea una pelicula  
 PUT /api/films/4 - edita la pelicula 4  
@@ -95,7 +97,7 @@ La creacion de esta Api consta de los siguientes puntos a tener en cuenta:
      Express <img <img style='width: 3rem; height: 3rem; margin-top: 1rem' src="https://res.cloudinary.com/druj3xeao/image/upload/v1635268180/readme/pngwing.com_5_mtcqjs.png"/> | MySQL <img <img style='width: 3rem; height: 3rem; margin-top: 1rem' src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mysql.svg/800px-Mysql.svg.png"/> | 
      Sequalize <img <img style='width: 3rem; height: 3rem; margin-top: 1rem' src="https://seekvectors.com/files/download/Sequelize-01.png"
      <h2>
-<h3><strong> Librerias: <strong></h3>
+<h3><strong> Librerias y dependencias: <strong></h3>
 
  ```JavaScript
    "dependencies": {
@@ -109,6 +111,14 @@ La creacion de esta Api consta de los siguientes puntos a tener en cuenta:
     "sequelize": "^6.12.0-alpha.1"
   }
 ``` 
+ <h3><strong> Uso de Herramientas: <strong></h3>
+ 
+  <h2>
+     Postman <img style='width: 3rem; height: 3rem; margin-top: 1rem' src="https://ivan6801.github.io/Portafolio-Ivan/sintaxis-img/postman.png"/>  |
+     phpAdmin <img style='width: 3rem; height: 3rem; margin-top: 1rem' src="https://unaaldia.hispasec.com/wp-content/uploads/2018/06/c4999-phpmyadmin.png"/> |
+     MySQL Worckbench <img <img style='width: 3rem; height: 3rem; margin-top: 1rem' src="https://yosoy.dev/wp-content/uploads/2013/01/images.jpg"/>
+     <h2> 
+  
  <h3> Contacto: <h3> <img align='right' src="https://user-images.githubusercontent.com/85074756/140621760-a092acaa-bb99-41b2-bc4f-b2d30283fbf2.jpeg" width="180" height="195">
     <a href='https://www.linkedin.com/in/ivan-s-nu%C3%B1ez/' target= "_blank">
      <img style='width: 3rem; height: 3rem; margin-top: 1rem' src="https://res.cloudinary.com/druj3xeao/image/upload/v1635266956/readme/linkedin-logo-png-1825_cjdift.png">
