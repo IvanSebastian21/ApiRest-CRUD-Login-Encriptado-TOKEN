@@ -111,7 +111,7 @@ La creacion de esta Api consta de los siguientes puntos a tener en cuenta:
     "sequelize": "^6.12.0-alpha.1"
   }
 ``` 
- <h3><strong> Uso de Herramientas: <strong></h3>
+ <h3><strong> Adicional: <strong></h3>
  
   <h2>
      Postman <img style='width: 3rem; height: 3rem; margin-top: 1rem' src="https://ivan6801.github.io/Portafolio-Ivan/sintaxis-img/postman.png"/>  |
