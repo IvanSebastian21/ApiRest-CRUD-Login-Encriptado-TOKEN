@@ -6,7 +6,7 @@ para la creacion de mi base de datos. El uso de Sequelize como ORM para poder ge
 Importante
 
 > Un vez descargado el proyecto  
-> El back funciona en el puerto 3000, sino MySQL por defecto se conectara al puerto 3006.  
+> El back funciona en el puerto 3000, sino MySQL por defecto se conectara al puerto 3306.  
 > La base de datos lleva por nombre "demo", crear una db con el mismo nombre.  
 > Sino, podes conectarte a tu db cambiandole el primer parametro
 ```JavaScript
