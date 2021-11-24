@@ -1,16 +1,29 @@
 # ApiRest. Metodologias del tipo CRUD + Login + Encriptado de password + Token
 En esta oportunidad aborde la creación de una Api Rest usando un stack de herramientas como NodeJS para poder manejar mi servidor. ExpressJS para desarrollar toda la lógica del lado del servidor. MySQL 
-para la creacion de mi base de datos. El uso de Sequelize como ORM para poder generar las tablas y la interacción con las mismas dentro de la base de datos y un stack de librerías para la creacion, verificación y autenticación del login de mis usuarios, lograr encriptarlos y enviarlos a la db y por ultimo la creación de un TOKEN de seguridad para controlar y determinar el contenido al que puede acceder cada usuario. 
+para la creacion de mi base de datos. El uso de Sequelize como ORM para poder generar las tablas y la interacción con las mismas dentro de la base de datos y un stack de librerías para la creacion, verificación y autenticación del login de mis usuarios, lograr encriptarlos y enviarlos a la db y por ultimo la creación de un TOKEN de seguridad para controlar y determinar el contenido al que puede acceder cada usuario.  
 
+### Requerimientos: 
+Importante
+
+> Un vez descargado el proyecto  
+> El back funciona en el puerto 3000, sino MySQL por defecto se conectara al puerto 3006.  
+> La base de datos lleva por nombre "demo", crear una db con el mismo nombre.  
+> Sino, podes conectarte a tu db cambiandole el primer parametro
+```JavaScript
+const sequelize = new Sequelize('demo', 'root', '', {
+    host: 'localhost',
+    dialect: 'mysql'
+});
+```
 ## Acompañame y veamos como abordar este nuevo desafio :muscle:
  
 Primero y principal. Definimos las rutas.
 
 >Dependiendo de las petisiones de nuestro front podemos pensar lo siguiente:  
->GET /api/films - recupera todas las peliculas  
-POST /api/films - crea una pelicula  
-PUT /api/films/4 - edita la pelicula 4  
-DELETE /api/films/4 - borra la pelicula 4
+>GET   --->   /api/films   - recupera todas las peliculas  
+POST   --->   /api/films   - crea una pelicula  
+PUT    --->   /api/films/4 - edita la pelicula 4(ejemplo)  
+DELETE --->   /api/films/4 - borra la pelicula 4(ejemplo)
 
 Sequalize permite crear modelos de una tabla con los siguientes campos en nuestra base de datos:  
 ```JavaScript
@@ -111,7 +124,7 @@ La creacion de esta Api consta de los siguientes puntos a tener en cuenta:
     "sequelize": "^6.12.0-alpha.1"
   }
 ``` 
- <h3><strong> Adicional: <strong></h3>
+ <h3><strong> Herramientas adicionales: <strong></h3>
  
   <h2>
      Postman <img style='width: 3rem; height: 3rem; margin-top: 1rem' src="https://ivan6801.github.io/Portafolio-Ivan/sintaxis-img/postman.png"/>  |
@@ -119,7 +132,13 @@ La creacion de esta Api consta de los siguientes puntos a tener en cuenta:
      MySQL Worckbench <img <img style='width: 3rem; height: 3rem; margin-top: 1rem' src="https://yosoy.dev/wp-content/uploads/2013/01/images.jpg"/>
      <h2> 
   
- <h3> Contacto: <h3> <img align='right' src="https://user-images.githubusercontent.com/85074756/140621760-a092acaa-bb99-41b2-bc4f-b2d30283fbf2.jpeg" width="180" height="195">
+<h3> Contacto: <h3> <img align='right' src="https://user-images.githubusercontent.com/85074756/140621760-a092acaa-bb99-41b2-bc4f-b2d30283fbf2.jpeg" width="180" height="195">
     <a href='https://www.linkedin.com/in/ivan-s-nu%C3%B1ez/' target= "_blank">
      <img style='width: 3rem; height: 3rem; margin-top: 1rem' src="https://res.cloudinary.com/druj3xeao/image/upload/v1635266956/readme/linkedin-logo-png-1825_cjdift.png">
     </a><br>
+ <h3> Puedes escribirme a: ivanseba.nez20@gmail.com <h3>
+    <a href='https://www.google.com/intl/es-419/gmail/about/' target= "_blank">
+     <img style='width: 2rem; height: 2rem; margin-top: 1rem' src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/800px-Gmail_icon_%282020%29.svg.png">
+    </a><br><br><br><br>
+Gracias por haber llegado hasta acá. Que andes bien.
+Saludos!
