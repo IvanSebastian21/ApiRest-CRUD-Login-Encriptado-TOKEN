@@ -3,7 +3,7 @@ En esta oportunidad aborde la creación de una Api Rest usando un stack de herra
 para la creacion de mi base de datos. El uso de Sequelize como ORM para poder generar las tablas y la interacción con las mismas dentro de la base de datos y un stack de librerías para la creacion, verificación y autenticación del login de mis usuarios, lograr encriptarlos y enviarlos a la db y por ultimo la creación de un TOKEN de seguridad para controlar y determinar el contenido al que puede acceder cada usuario.  
 
 ### Requerimientos: 
-Importante
+Importante.
 
 > Un vez descargado el proyecto  
 > El back funciona en el puerto 3000, sino MySQL por defecto se conectara al puerto 3306.  
